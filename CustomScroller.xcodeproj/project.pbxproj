@@ -15,7 +15,7 @@
 		7A44870C1C3269D300A64339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A44870B1C3269D300A64339 /* Images.xcassets */; };
 		7A44870F1C3269D300A64339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A44870D1C3269D300A64339 /* LaunchScreen.xib */; };
 		7A4487271C3272FA00A64339 /* SubCointainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4487261C3272FA00A64339 /* SubCointainView.m */; };
-		7AF2A9901C32AEDC001FB35F /* CustomScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A98F1C32AEDC001FB35F /* CustomScrollerView.m */; };
+		7A6AAFBB1C3565E0009E7BC0 /* CustomScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAFB91C3565E0009E7BC0 /* CustomScrollerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		7A44871A1C3269D300A64339 /* CustomScrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollerTests.m; sourceTree = "<group>"; };
 		7A4487251C3272FA00A64339 /* SubCointainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCointainView.h; sourceTree = "<group>"; };
 		7A4487261C3272FA00A64339 /* SubCointainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCointainView.m; sourceTree = "<group>"; };
-		7A58F4911C33B71B000612CE /* Categoties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoties.h; sourceTree = "<group>"; };
-		7AF2A98E1C32AEDC001FB35F /* CustomScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollerView.h; sourceTree = "<group>"; };
-		7AF2A98F1C32AEDC001FB35F /* CustomScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollerView.m; sourceTree = "<group>"; };
-		7AF2A9911C32B03C001FB35F /* CustomScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewProtocol.h; sourceTree = "<group>"; };
+		7A6AAFB71C3565E0009E7BC0 /* Categoties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoties.h; sourceTree = "<group>"; };
+		7A6AAFB81C3565E0009E7BC0 /* CustomScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollerView.h; sourceTree = "<group>"; };
+		7A6AAFB91C3565E0009E7BC0 /* CustomScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollerView.m; sourceTree = "<group>"; };
+		7A6AAFBA1C3565E0009E7BC0 /* CustomScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,7 @@
 		7A4486FA1C3269D200A64339 /* TestProject0001 */ = {
 			isa = PBXGroup;
 			children = (
+				7A6AAFB61C3565E0009E7BC0 /* CustomScroller */,
 				7A4487241C3272EA00A64339 /* SubCointainView */,
 				7A4486FF1C3269D200A64339 /* AppDelegate.h */,
 				7A4487001C3269D200A64339 /* AppDelegate.m */,
@@ -136,12 +137,19 @@
 			children = (
 				7A4487251C3272FA00A64339 /* SubCointainView.h */,
 				7A4487261C3272FA00A64339 /* SubCointainView.m */,
-				7AF2A9911C32B03C001FB35F /* CustomScrollViewProtocol.h */,
-				7A58F4911C33B71B000612CE /* Categoties.h */,
-				7AF2A98E1C32AEDC001FB35F /* CustomScrollerView.h */,
-				7AF2A98F1C32AEDC001FB35F /* CustomScrollerView.m */,
 			);
 			path = SubCointainView;
+			sourceTree = "<group>";
+		};
+		7A6AAFB61C3565E0009E7BC0 /* CustomScroller */ = {
+			isa = PBXGroup;
+			children = (
+				7A6AAFB71C3565E0009E7BC0 /* Categoties.h */,
+				7A6AAFB81C3565E0009E7BC0 /* CustomScrollerView.h */,
+				7A6AAFB91C3565E0009E7BC0 /* CustomScrollerView.m */,
+				7A6AAFBA1C3565E0009E7BC0 /* CustomScrollViewProtocol.h */,
+			);
+			path = CustomScroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,10 +254,10 @@
 			files = (
 				7A4487271C3272FA00A64339 /* SubCointainView.m in Sources */,
 				7A4487011C3269D200A64339 /* AppDelegate.m in Sources */,
-				7AF2A9901C32AEDC001FB35F /* CustomScrollerView.m in Sources */,
 				7A4487041C3269D200A64339 /* TestProject0001.xcdatamodeld in Sources */,
 				7A4487071C3269D200A64339 /* ViewController.m in Sources */,
 				7A4486FE1C3269D200A64339 /* main.m in Sources */,
+				7A6AAFBB1C3565E0009E7BC0 /* CustomScrollerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
