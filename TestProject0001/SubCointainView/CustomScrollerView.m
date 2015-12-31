@@ -400,7 +400,7 @@
 //- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 //- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
 {
-    CGFloat d = [scrollView.panGestureRecognizer translationInView:scrollView.superview].x;
+   // CGFloat d = [scrollView.panGestureRecognizer translationInView:scrollView.superview].x;
 
     NSInteger index =[scrollView indexOfPage];
 
